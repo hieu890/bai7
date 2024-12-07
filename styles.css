@@ -1,0 +1,40 @@
+/* Đặt font chữ mặc định cho toàn bộ trang */
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Nền màu đen */
+    color: white; /* Chữ màu trắng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao toàn bộ trang */
+    text-align: center; /* Canh giữa văn bản */
+  }
+  
+  /* Căn giữa nội dung trong div */
+  .container {
+    width: 50%; /* Chiều rộng 50% */
+    margin: auto; /* Căn giữa theo chiều ngang */
+  }
+  
+  /* Định dạng cho hình ảnh */
+  img {
+    width: 100%; /* Làm cho ảnh rộng 100% */
+    border: 5px solid white; /* Viền 5px màu trắng */
+    border-radius: 10px; /* Tùy chọn: làm tròn các góc của hình ảnh */
+    margin-bottom: 20px; /* Khoảng cách giữa ảnh và văn bản */
+  }
+  
+  /* Chỉnh sửa văn bản trong h1 */
+  h1 {
+    text-transform: uppercase; /* Viết hoa tất cả các chữ trong h1 */
+    font-size: 2em; /* Kích thước chữ */
+    margin-bottom: 20px; /* Khoảng cách giữa h1 và p */
+  }
+  
+  /* Chỉnh sửa cho p */
+  p {
+    font-size: 1.2em; /* Kích thước chữ cho đoạn văn */
+  }
+  
